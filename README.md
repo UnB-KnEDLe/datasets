@@ -9,4 +9,7 @@ This repository contains datasets from several domains, useful for many taks in 
 - [Atos de Aposentadoria Validados](/atos_aposentadoria.md)
 - [Exoneração de cargos em comissão](/exoneracao_cargos_comissao.md)
 
+## NER Datasets
+
+## Classification Datasets
 
