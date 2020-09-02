@@ -12,6 +12,11 @@ provided by TCDFT (Tribunal de Contas do Distrito Federal e Territórios)
 
 # Dataset Information
 
+Datasets with info about Acts of Retirement. These dataset were validated by TCDFT staff and can be used as a gold standard dataset.
+
+**size:** 5517 rows
+
+
 # Attibute Information
 
 - REF_ANOMES	
