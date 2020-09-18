@@ -13,6 +13,10 @@ This repository contains datasets from several domains, useful for many taks in 
 - [SIS Editais Licitação](/sis_editais.md)
 
 ## NER Datasets
+- [Entidades nomeadas para atos de aposentadoria](/NER_aposentadoria.md)
+
+## Segmentation Datasets
+- [Segmentação para atos de aposentadoria](/SEG_aposentadoria.md)
 
 ## Classification Datasets
 
