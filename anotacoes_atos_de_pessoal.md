@@ -31,7 +31,7 @@ The acts considered and their respective labels are presented below:
 |Tornado sem efeito atos de aposentadoria | Ato_Tornado_Sem_Efeito_Apo|
 |Tornado sem efeito atos de exoneração ou nomeação | Ato_Tornado_Sem_Efeito_Exo_Nom|
 
-A [dataset with info about Acts of Retirement](https://github.com/UnB-KnEDLe/datasets/blob/master/atos_aposentadoria.md) was provided by the Tribunal de Contas do Distrito Federal (TCDF);
+*Note: A [dataset with info about Acts of Retirement](https://github.com/UnB-KnEDLe/datasets/blob/master/atos_aposentadoria.md) was provided by the Tribunal de Contas do Distrito Federal (TCDF).*
 
 [More information](https://github.com/UnB-KnEDLe/tutorial_annotation_teamtat) about the annotation process and its labels.
 
