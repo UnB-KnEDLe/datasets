@@ -1,7 +1,7 @@
 
 
 
-[Download Version 0 (**Restricted**) ](https://drive.google.com/file/d/1zxM1tDKoNPXgu9z7qdT_m3w5QDFUe1L4/view?usp=sharing)
+[Download Version 1 (**Restricted**) ](https://drive.google.com/file/d/1zxM1tDKoNPXgu9z7qdT_m3w5QDFUe1L4/view?usp=sharing)
 
 
 
@@ -12,7 +12,7 @@ Data extracted from the Diário Oficial do Distrito Federal (DODF) using [DODFMi
 
 # Dataset Information
 
-Datasets with info about personnel related acts. These datasets were validated by members of the KnEDLe project and can be used as a gold standard dataset.
+Datasets with info about personnel related acts and their respective entities. These datasets were validated by members of the KnEDLe project and can be used as a gold standard dataset.
 
 The acts considered and their respective labels are presented below:
 
@@ -38,6 +38,8 @@ The acts considered and their respective labels are presented below:
 # Version 0
 **size:** 13924 rows
 
+Annotations from Batch 3. 
+
 ## Attibute Information 
 
 |    Attribute  | Description | 
@@ -55,11 +57,58 @@ The acts considered and their respective labels are presented below:
 |anotador_ent   | who annotated the entity |
 |texto_ent      | entity |
 
+## Number of Labeled Acts
+
+|    Class                       | Quantity | 
+|:------------------------------:|:----:|
+|Ato_Substituicao                |   502|
+|Ato_Nomeacao_Comissionado       |   303|
+|Ato_Retificacao_Efetivo         |   238|
+|Ato_Exoneracao_Comissionado     |   236|
+|Ato_Retificacao_Comissionado    |    39|
+|Ato_Tornado_Sem_Efeito_Exo_Nom  |    29|
+|Ato_Nomeacao_Efetivo            |    15|
+|Ato_Exoneracao_Efetivo          |    10|
+|Ato_Reversao                    |    10|
+|Ato_Abono_Permanencia           |     6|
+|Ato_Tornado_Sem_Efeito_Apo      |     1|
+|Ato_Cessao                      |     0|
+|Total                           |  1389|
+
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/1zxM1tDKoNPXgu9z7qdT_m3w5QDFUe1L4/view?usp=sharing)
 - [XML (**Restricted**) ](https://drive.google.com/drive/folders/1Ih6YfXn2CnnmBMxXoycS8beihJvIzJZz?usp=sharing)
 
+# Version 1
+**size:** 36040 rows
 
+Added annotations from Batch 1 and Validation Batch.
+
+## Attibute Information 
+
+The attributes of this version are the same as in the previous version.
+
+## Number of Labeled Acts
+
+|    Class                       | Quantity | 
+|:------------------------------:|:----:|
+|Ato_Substituicao                |  1251|
+|Ato_Nomeacao_Comissionado       |   789|
+|Ato_Exoneracao_Comissionado     |   675|
+|Ato_Retificacao_Efetivo         |   441|
+|Ato_Tornado_Sem_Efeito_Exo_Nom  |    90|
+|Ato_Retificacao_Comissionado    |    89|
+|Ato_Cessao                      |    77|
+|Ato_Abono_Permanencia           |    61|
+|Ato_Exoneracao_Efetivo          |    29|
+|Ato_Reversao                    |    26|
+|Ato_Nomeacao_Efetivo            |    20|
+|Ato_Tornado_Sem_Efeito_Apo      |    11|
+|Total                           |  3559|
+
+## Files
+- [CSV (**Restricted**) ](https://drive.google.com/file/d/1CyYlpewhdN7SRAZSCrtQQDIuItQdognA/view?usp=sharing)
+- [XML (**Restricted**) ](https://drive.google.com/drive/folders/1eBhiA2apOmoYHQ54L_7g5a20pFlbnY1I?usp=sharing)
 
 # Relevant Papers
 
