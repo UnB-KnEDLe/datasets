@@ -1,7 +1,7 @@
 
 
 
-[Download Version 1 (**Restricted**) ](https://drive.google.com/file/d/1zxM1tDKoNPXgu9z7qdT_m3w5QDFUe1L4/view?usp=sharing)
+[Download Version 2 (**Restricted**) ](https://drive.google.com/file/d/1G4rkRK8XTgn7g9yQR5KyN-t1peCuPYBz/view?usp=sharing)
 
 
 
@@ -40,7 +40,7 @@ The acts considered and their respective labels are presented below:
 
 Annotations from Batch 3. 
 
-## Attibute Information 
+## Attribute Information 
 
 |    Attribute  | Description | 
 |:-------------:|:-------------------:|
@@ -84,7 +84,7 @@ Annotations from Batch 3.
 
 Added annotations from Batch 1 and Validation Batch.
 
-## Attibute Information 
+## Attribute Information 
 
 The attributes of this version are the same as in the previous version.
 
@@ -109,6 +109,37 @@ The attributes of this version are the same as in the previous version.
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/1CyYlpewhdN7SRAZSCrtQQDIuItQdognA/view?usp=sharing)
 - [XML (**Restricted**) ](https://drive.google.com/drive/folders/1eBhiA2apOmoYHQ54L_7g5a20pFlbnY1I?usp=sharing)
+
+# Version 2
+**size:** 52805 rows
+
+Added annotations from Batch 2, with the exception of the annotations from documents 70 and 71 due to technical problems.
+
+## Attribute Information 
+
+The attributes of this version are the same as in the previous version.
+
+## Number of Labeled Acts
+
+|    Class                       | Quantity | 
+|:------------------------------:|:----:|
+|Ato_Substituicao                |  1636|
+|Ato_Nomeacao_Comissionado       |  1359|
+|Ato_Exoneracao_Comissionado     |  1142|
+|Ato_Retificacao_Efetivo         |   578|
+|Ato_Tornado_Sem_Efeito_Exo_Nom  |   135|
+|Ato_Retificacao_Comissionado    |   131|
+|Ato_Exoneracao_Efetivo          |   105|
+|Ato_Cessao                      |    88|
+|Ato_Abono_Permanencia           |    74|
+|Ato_Nomeacao_Efetivo            |    56|
+|Ato_Reversao                    |    36|
+|Ato_Tornado_Sem_Efeito_Apo      |    13|
+|Total                           |  5353|
+
+## Files
+- [CSV (**Restricted**) ](https://drive.google.com/file/d/1G4rkRK8XTgn7g9yQR5KyN-t1peCuPYBz/view?usp=sharing)
+- [XML (**Restricted**) ](https://drive.google.com/drive/folders/1b3WwzXzLXFv5Xw1KggK5o4eyadTwQCSk?usp=sharing)
 
 # Relevant Papers
 
