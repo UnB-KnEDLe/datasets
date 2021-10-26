@@ -47,12 +47,12 @@ Annotations from Batch 3.
 |id_ato         | act identifier |
 |id_dodf        | identifier of the DODF from which the act was extracted |
 |num_doc_dodf   | number of the DODF from which the act was extracted |
-|data_doc_dodf  | data of the DODF from which the act was extracted |
+|data_doc_dodf  | date of the DODF from which the act was extracted |
 |tipo_rel       | type of the act to which the entity belongs|
 |id_rel         | relation-level annotation identifier |
 |anotador_rel   | who annotated the relation used to represent the act|
 |texto_rel      | full text of the act |
-|tipo_ent       |entity type |
+|tipo_ent       | entity type |
 |id_ent         | entity-level annotation identifier |
 |anotador_ent   | who annotated the entity |
 |texto_ent      | entity |
