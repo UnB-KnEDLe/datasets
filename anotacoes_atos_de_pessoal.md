@@ -1,7 +1,7 @@
 
 
 
-[Download Version 2 (**Restricted**) ](https://drive.google.com/file/d/1G4rkRK8XTgn7g9yQR5KyN-t1peCuPYBz/view?usp=sharing)
+[Download Version 3 (**Restricted**) ](https://drive.google.com/file/d/19ZSHK24LFkK3VYLlKuItjzSh8fLBOmGW/view?usp=sharing)
 
 
 
@@ -77,7 +77,7 @@ Annotations from Batch 3.
 
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/1zxM1tDKoNPXgu9z7qdT_m3w5QDFUe1L4/view?usp=sharing)
-- [XML (**Restricted**) ](https://drive.google.com/drive/folders/1Ih6YfXn2CnnmBMxXoycS8beihJvIzJZz?usp=sharing)
+- [XML (**Restricted**) ](https://drive.google.com/drive/folders/11hkfYFfPZmOPFbV1Bm8FZkt1thIS5Ulz?usp=sharing)
 
 # Version 1
 **size:** 36040 rows
@@ -108,7 +108,7 @@ The attributes of this version are the same as in the previous version.
 
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/1CyYlpewhdN7SRAZSCrtQQDIuItQdognA/view?usp=sharing)
-- [XML (**Restricted**) ](https://drive.google.com/drive/folders/1eBhiA2apOmoYHQ54L_7g5a20pFlbnY1I?usp=sharing)
+- [XML (**Restricted**) ](https://drive.google.com/drive/folders/11hkfYFfPZmOPFbV1Bm8FZkt1thIS5Ulz?usp=sharing)
 
 # Version 2
 **size:** 52805 rows
@@ -139,7 +139,39 @@ The attributes of this version are the same as in the previous version.
 
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/1G4rkRK8XTgn7g9yQR5KyN-t1peCuPYBz/view?usp=sharing)
-- [XML (**Restricted**) ](https://drive.google.com/drive/folders/1b3WwzXzLXFv5Xw1KggK5o4eyadTwQCSk?usp=sharing)
+- [XML (**Restricted**) ](https://drive.google.com/drive/folders/11hkfYFfPZmOPFbV1Bm8FZkt1thIS5Ulz?usp=sharing)
+
+# Version 3
+**size:** 93916 rows
+
+Added annotations from Batch NIDO, with the exception of the annotations from document 70 due to technical problems.
+
+## Attribute Information 
+
+The attributes of this version are the same as in the previous version.
+
+## Number of Labeled Acts
+
+|    Class                       | Quantity | 
+|:------------------------------:|:----:|
+|Ato_Substituicao                |  2423|
+|Ato_Nomeacao_Comissionado       |  2314|
+|Ato_Exoneracao_Comissionado     |  2380|
+|Ato_Retificacao_Efetivo         |  1241|
+|Ato_Tornado_Sem_Efeito_Exo_Nom  |   251|
+|Ato_Retificacao_Comissionado    |   201|
+|Ato_Exoneracao_Efetivo          |   303|
+|Ato_Cessao                      |   267|
+|Ato_Abono_Permanencia           |   137|
+|Ato_Nomeacao_Efetivo            |    79|
+|Ato_Reversao                    |    62|
+|Ato_Tornado_Sem_Efeito_Apo      |    21|
+|Total                           |  9679|
+
+## Files
+- [CSV (**Restricted**) ](https://drive.google.com/file/d/19ZSHK24LFkK3VYLlKuItjzSh8fLBOmGW/view?usp=sharing)
+- [XML (**Restricted**) ](https://drive.google.com/drive/folders/11hkfYFfPZmOPFbV1Bm8FZkt1thIS5Ulz?usp=sharing)
+
 
 # Relevant Papers
 
