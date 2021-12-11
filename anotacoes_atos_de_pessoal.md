@@ -155,13 +155,13 @@ The attributes of this version are the same as in the previous version.
 |    Class                       | Quantity | 
 |:------------------------------:|:----:|
 |Ato_Substituicao                |  2423|
-|Ato_Nomeacao_Comissionado       |  2314|
 |Ato_Exoneracao_Comissionado     |  2380|
+|Ato_Nomeacao_Comissionado       |  2314|
 |Ato_Retificacao_Efetivo         |  1241|
-|Ato_Tornado_Sem_Efeito_Exo_Nom  |   251|
-|Ato_Retificacao_Comissionado    |   201|
 |Ato_Exoneracao_Efetivo          |   303|
 |Ato_Cessao                      |   267|
+|Ato_Tornado_Sem_Efeito_Exo_Nom  |   251|
+|Ato_Retificacao_Comissionado    |   201|
 |Ato_Abono_Permanencia           |   137|
 |Ato_Nomeacao_Efetivo            |    79|
 |Ato_Reversao                    |    62|
