@@ -144,7 +144,7 @@ The attributes of this version are the same as in the previous version.
 # Version 3
 **size:** 93916 rows
 
-Added annotations from Batch NIDO, with the exception of the annotations from document 70 due to technical problems.
+Added annotations from Batch NIDO and Batch Extra, with the exception of the annotations from document 70 due to technical problems.
 
 ## Attribute Information 
 
