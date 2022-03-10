@@ -6,12 +6,12 @@ Data extracted from the Diário Oficial do Distrito Federal (DODF)  and manually
 
 # Dataset Information
 
-Datasets with with labeled entities of acts of contract and contract amendment texts. These datasets were validated and reviewed by members of the KnEDLe project and can be used as a gold standard dataset.
+Datasets with with labeled entities. These datasets were validated and reviewed by members of the KnEDLe project and can be used as a gold standard dataset.
 
 # Labeled Acts
-**size:** 948 rows
+**size:** 1168 rows
 
-Manually labeled acts consisting of Acts of Contract and Contract Amendment. The labeled entities were made upon those labeled texts.
+Manually labeled acts consisting of Extratos de Contrato, Aditamento Contratual, Aviso de Licitação, Aviso de Suspensão de Licitação and Aviso de Revogação/Anulação de Licitação. The labeled entities were made upon those labeled texts.
 
 ## Attribute Information 
 
@@ -27,22 +27,22 @@ Manually labeled acts consisting of Acts of Contract and Contract Amendment. The
 
 ## Number of Labeled Acts
 
-|    Class                              | Quantity | 
-|:-------------------------------------:|:----:|
-|extrato_de_contrato_ou_convenio        |   475|
-|extrato_de_aditamento_contratual       |   256|
-|aviso_de_aditamento_contratual         |   217|
-|Total                                  |   948|
-
-*Note: "extrato_de_aditamento_contratual" and "aviso_de_aditamento_contratual" have the same entities and are viewed both as Contract Amendment.*
+|    Class                                    | Quantity | 
+|:-------------------------------------------:|:--------:|
+|aviso_de_aditamento_contratual               |       463|
+|extrato_de_contrato_ou_convenio              |       442|
+|aviso_de_licitacao                           |       235|
+|aviso_de_revogacao_anulacao_de_licitacao     |        16|
+|aviso_de_suspensao_de_licitacao              |        12|
+|Total                                        |      1168|
 
 ## Files
-- [PARQUET](https://drive.google.com/file/d/1pFbMpH7JR8KJ292oPuRDQ1jb_VxC3NKv/view?usp=sharing)
+- [PARQUET](https://drive.google.com/file/d/1NJC58r89eJ58aJxA6LIKehahujqlK8tV/view?usp=sharing)
 
 # Labeled Entities
-**size:** 6499 rows
+**size:** 7946 rows
 
-Manually labeled entities of Acts of Contract and Contract Amendment texts.
+Manually labeled entities.
 
 ## Attribute Information 
 
@@ -60,41 +60,47 @@ Manually labeled entities of Acts of Contract and Contract Amendment texts.
 
 ## Number of Labeled Entities
 
-|    Class                                          | Quantity | 
-|:-------------------------------------------------:|:----:|
-|Órgão contratante                                  |   896|
-|Número do contrato                                 |   491|
-|Objeto do ajuste                                   |   472|
-|Objeto do aditamento contratual                    |   472|
-|Processo do GDF                                    |   464|
-|Número do ajuste                                   |   442|
-|Entidade contratada                                |   442|
-|Vigência do ajuste                                 |   433|
-|Número do termo aditivo                            |   426|
-|Data de assinatura do ajuste                       |   404|
-|Valor do ajuste                                    |   369|
-|Programa de trabalho                               |   293|
-|Nota de empenho                                    |   248|
-|Natureza da despesa                                |   223|
-|Código da unidade orçamentária                     |   196|
-|Número da licitação que gerou o contrato           |   131|
-|Entidades convenentes                              |    31|
-|Fundamento legal da dispensa ou inexigibilidade    |    31|
-|Dispensa de licitação                              |    13|
-|Dispensa de inexigibilidade                        |    12|
-|Número da licitação                                |     4|
-|Órgão/entidade licitante                           |     3|
-|Órgão gerenciador da ata                           |     1|
-|Data de abertura da licitação                      |     1|
-|Objeto da licitação                                |     1|
-|Total                                              |  6499|
+|    Class                                             | Quantity | 
+|Órgão contratante                                     |       857|
+|Processo do GDF                                       |       664|
+|Objeto do aditamento contratual                       |       460|
+|Número do contrato                                    |       457|
+|Objeto do ajuste                                      |       442|
+|Número do ajuste                                      |       432|
+|Entidade contratada                                   |       413|
+|Número do termo aditivo                               |       412|
+|Vigência do ajuste                                    |       408|
+|Data de assinatura do ajuste                          |       381|
+|Valor do ajuste                                       |       348|
+|Programa de trabalho                                  |       277|
+|Modalidade de licitação                               |       265|
+|Número da licitação                                   |       264|
+|Objeto da licitação                                   |       236|
+|Nota de empenho                                       |       234|
+|Tipo de objeto                                        |       225|
+|Natureza da despesa                                   |       211|
+|Data de abertura da licitação                         |       209|
+|Código da unidade orçamentária                        |       184|
+|Sistema de compras utilizado                          |       173|
+|Número da licitação que gerou o contrato              |       124|
+|Valor estimado da contratação                         |        71|
+|Órgão/entidade licitante                              |        50|
+|Código da licitação no sistema de compras utilizado   |        43|
+|Entidades convenentes                                 |        31|
+|Fundamento legal da dispensa ou inexigibilidade       |        30|
+|Identificação de dispensa                             |        24|
+|Identificação revogação/anulação                      |        16|
+|Decisão do TCDF que determinou a suspensão            |         2|
+|Prazo da suspensão                                    |         2|
+|Órgão gerenciador da ata                              |         1|
+|Total                                                 |      7946|
 
 ## Files
-- [PARQUET](https://drive.google.com/file/d/1mUlsF0_tqnG5haaZB6W_onwxYHbq1MTL/view?usp=sharing)
+- [PARQUET](https://drive.google.com/file/d/1HQ48kPD0erHNZDtFX3TKfWryC5jvYleV/view?usp=sharing)
 
 
 # Tokenized Acts
-**size:** 943 rows
+**size:** 1168 rows
 
 Tokenized texts of acts, based on the labeled entities.
 
@@ -108,33 +114,52 @@ Tokenized texts of acts, based on the labeled entities.
 
 ## Tokenized Entities
 
-| Act Type                        | Entity Label                                       |            Token | 
-|:--------------------------------|---------------------------------------------------:|:----------------:|
-|Extrato de contrato              | Processo do GDF                                    |          PROCESSO|
-|Extrato de contrato              | Número do ajuste                                   |        NUM_AJUSTE|
-|Extrato de contrato              | Órgão contratante                                  |       CONTRATANTE|
-|Extrato de contrato              | Entidade contratada                                |        CONTRATADA|
-|Extrato de contrato              | Entidades convenentes                              |        CONVENENTE|
-|Extrato de contrato              | Objeto do ajuste                                   |        OBJ_AJUSTE|
-|Extrato de contrato              | Data de assinatura do ajuste                       |   DATA_ASSINATURA|
-|Extrato de contrato              | Vigência do ajuste                                 |          VIGENCIA|
-|Extrato de contrato              | Valor do ajuste                                    |             VALOR|
-|Extrato de contrato              | Código da unidade orçamentária                     |         CODIGO_UO|
-|Extrato de contrato              | Programa de trabalho                               |                PT|
-|Extrato de contrato              | Natureza da despesa                                |                ND|
-|Extrato de contrato              | Nota de empenho                                    |                NE|
-|Extrato de contrato              | Órgão/entidade licitante                           |   ORGAO_LICITANTE|
-|Extrato de contrato              | Número da licitação que gerou o contrato           |     NUM_LICITACAO|
-|Extrato de contrato              | Órgão gerenciador da ata                           |            OG_ATA|
-|Extrato de contrato              | Identificação de dispensa                          |    IDENT_DISPENSA|
-|Extrato de contrato              | Fundamento legal da dispensa ou inexigibilidade    |     FUND_DISPENSA|
-|Aditamento contratual            | Órgão contratante                                  |       CONTRATANTE|
-|Aditamento contratual            | Número do contrato                                 |      NUM_CONTRATO|
-|Aditamento contratual            | Número do termo aditivo                            |       NUM_ADITIVO|
-|Aditamento contratual            | Objeto do aditamento contratual                    |       OBJ_ADITIVO|
+| Act Type                                    | Entity Label                                           |                         Token | 
+|:--------------------------------------------|-------------------------------------------------------:|:-----------------------------:|
+|Extrato de contrato                          | Processo do GDF                                        |                       PROCESSO|
+|Extrato de contrato                          | Número do ajuste                                       |                     NUM_AJUSTE|
+|Extrato de contrato                          | Órgão contratante                                      |                    CONTRATANTE|
+|Extrato de contrato                          | Entidade contratada                                    |                     CONTRATADA|
+|Extrato de contrato                          | Entidades convenentes                                  |                     CONVENENTE|
+|Extrato de contrato                          | Objeto do ajuste                                       |                     OBJ_AJUSTE|
+|Extrato de contrato                          | Data de assinatura do ajuste                           |                DATA_ASSINATURA|
+|Extrato de contrato                          | Vigência do ajuste                                     |                       VIGENCIA|
+|Extrato de contrato                          | Valor do ajuste                                        |                          VALOR|
+|Extrato de contrato                          | Código da unidade orçamentária                         |                      CODIGO_UO|
+|Extrato de contrato                          | Programa de trabalho                                   |                             PT|
+|Extrato de contrato                          | Natureza da despesa                                    |                             ND|
+|Extrato de contrato                          | Nota de empenho                                        |                             NE|
+|Extrato de contrato                          | Órgão/entidade licitante                               |                ORGAO_LICITANTE|
+|Extrato de contrato                          | Número da licitação que gerou o contrato               |                  NUM_LICITACAO|
+|Extrato de contrato                          | Órgão gerenciador da ata                               |                         OG_ATA|
+|Extrato de contrato                          | Identificação de dispensa                              |                 IDENT_DISPENSA|
+|Extrato de contrato                          | Fundamento legal da dispensa ou inexigibilidade        |                  FUND_DISPENSA|
+|Aditamento contratual                        | Órgão contratante                                      |                    CONTRATANTE|
+|Aditamento contratual                        | Número do contrato                                     |                   NUM_CONTRATO|
+|Aditamento contratual                        | Número do termo aditivo                                |                    NUM_ADITIVO|
+|Aditamento contratual                        | Objeto do aditamento contratual                        |                    OBJ_ADITIVO|
+|Aviso de licitação                           | Órgão/entidade licitante                               |                ORGAO_LICITANTE|
+|Aviso de licitação                           | Número da licitação                                    |                  NUM_LICITACAO|
+|Aviso de licitação                           | Objeto da licitação                                    |                  OBJ_LICITACAO|
+|Aviso de licitação                           | Modalidade de licitação                                |           MODALIDADE_LICITACAO|
+|Aviso de licitação                           | Processo do GDF                                        |                       PROCESSO|
+|Aviso de licitação                           | Valor estimado da contratação                          |                 VALOR_ESTIMADO|
+|Aviso de licitação                           | Data de abertura da licitação                          |                  DATA_ABERTURA|
+|Aviso de licitação                           | Sistema de compras utilizado                           |                SISTEMA_COMPRAS|
+|Aviso de licitação                           | Código da licitação no sistema de compras utilizado    |         CODIGO_SISTEMA_COMPRAS|
+|Aviso de licitação                           | Tipo de objeto                                         |                       TIPO_OBJ|
+|Aviso de revogação/anulação de licitação     | Órgão/entidade licitante                               |                ORGAO_LICITANTE|
+|Aviso de revogação/anulação de licitação     | Número da licitação                                    |                  NUM_LICITACAO|
+|Aviso de revogação/anulação de licitação     | Modalidade de licitação                                |           MODALIDADE_LICITACAO|
+|Aviso de revogação/anulação de licitação     | Identificação revogação/anulação                       |       IDENT_REVOGACAO_ANULACAO|
+|Aviso de suspensão de licitação              | Órgão/entidade licitante                               |                ORGAO_LICITANTE|
+|Aviso de suspensão de licitação              | Número da licitação                                    |                  NUM_LICITACAO|
+|Aviso de suspensão de licitação              | Modalidade de licitação                                |           MODALIDADE_LICITACAO|
+|Aviso de suspensão de licitação              | Prazo da suspensão                                     |                PRAZO_SUSPENSAO|
+|Aviso de suspensão de licitação              | Decisão do TCDF que determinou a suspensão             |                   DECISAO_TCDF|
 
 ## Files
-- [PARQUET](https://drive.google.com/file/d/1M1nRD9GZvJlbz5wFLfvJRuzjFDaypvtL/view?usp=sharing)
+- [PARQUET](https://drive.google.com/file/d/1I3rpmr3oIZvGVF2VBlua1kwVuY7rGo3B/view?usp=sharing)
 
 # Relevant Papers
 
