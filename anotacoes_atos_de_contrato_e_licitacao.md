@@ -61,6 +61,7 @@ Manually labeled entities.
 ## Number of Labeled Entities
 
 |    Class                                             | Quantity | 
+|:----------------------------------------------------:|:--------:|
 |Órgão contratante                                     |       857|
 |Processo do GDF                                       |       664|
 |Objeto do aditamento contratual                       |       460|
