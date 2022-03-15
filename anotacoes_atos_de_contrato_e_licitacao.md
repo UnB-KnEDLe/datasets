@@ -105,6 +105,8 @@ Manually labeled entities.
 
 Tokenized texts of acts, based on the labeled entities.
 
+The IOB tagging was made with all types of acts and all listed entities. The script in which the tagging was made is located at [here](https://github.com/UnB-KnEDLe/experiments/blob/master/members/ciriatico/ground_truth_dataset/iob_labeled_entities.ipynb), and it can be changed using the Labeled Acts and Labeled Entities dataset.
+
 ## Attribute Information 
 
 |    Attribute     | Description | 
