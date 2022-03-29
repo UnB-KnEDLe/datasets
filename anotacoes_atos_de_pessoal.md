@@ -1,9 +1,4 @@
-
-
-
-[Download Version 3 (**Restricted**) ](https://drive.google.com/file/d/19ZSHK24LFkK3VYLlKuItjzSh8fLBOmGW/view?usp=sharing)
-
-
+[Download Final Version (**Restricted**) ](https://drive.google.com/file/d/1TDfUicwYDjJBFMabGFl0aIpqysAL4eiJ/view?usp=sharing)
 
 
 # Source
@@ -171,6 +166,38 @@ The attributes of this version are the same as in the previous version.
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/19ZSHK24LFkK3VYLlKuItjzSh8fLBOmGW/view?usp=sharing)
 - [XML (**Restricted**) ](https://drive.google.com/drive/folders/11hkfYFfPZmOPFbV1Bm8FZkt1thIS5Ulz?usp=sharing)
+
+# Final Version 
+**size:** 96524 rows
+
+Revised all the annotations and added annotations from document 70 and 71.
+
+## Attribute Information 
+
+The attributes of this version are the same as in the previous version.
+
+## Number of Labeled Acts
+
+|    Class                       | Quantity | 
+|:------------------------------:|:----:|
+|Ato_Substituicao                |  2548|
+|Ato_Exoneracao_Comissionado     |  2379|
+|Ato_Nomeacao_Comissionado       |  2328|
+|Ato_Retificacao_Efetivo         |  1254|
+|Ato_Exoneracao_Efetivo          |   303|
+|Ato_Cessao                      |   331|
+|Ato_Tornado_Sem_Efeito_Exo_Nom  |   251|
+|Ato_Retificacao_Comissionado    |   201|
+|Ato_Abono_Permanencia           |   138|
+|Ato_Nomeacao_Efetivo            |    78|
+|Ato_Reversao                    |    61|
+|Ato_Tornado_Sem_Efeito_Apo      |    22|
+|Total                           |  9894|
+
+
+## File
+- [CSV (**Restricted**) ](https://drive.google.com/file/d/1TDfUicwYDjJBFMabGFl0aIpqysAL4eiJ/view?usp=sharing)
+
 
 
 # Relevant Papers
