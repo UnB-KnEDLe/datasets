@@ -23,7 +23,7 @@ The acts considered and their respective labels are presented below:
 [More information](https://github.com/UnB-KnEDLe/tutorial_anotacao_contratos_licitacoes) about the annotation process and its labels.
 
 # Version 0
-**size:** TBD rows
+**size:** 158592 rows
 
 Annotations from Batch 1 and Experimental Batch. 
 
