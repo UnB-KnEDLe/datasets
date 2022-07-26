@@ -7,6 +7,7 @@ This repository contains datasets from several domains, useful for many taks in 
 ## Datasets
 
 - [DODFCorpus I: Atos de Pessoal](/anotacoes_atos_de_pessoal.md)
+- [DODFCorpus II: Atos de Contratos e Licitações](/corpus_2_contratos_licitacoes.md)
 - [Atos de Aposentadoria Validados](/atos_aposentadoria.md)
 - [Exoneração de cargos em comissão](/exoneracao_cargos_comissao.md)
 - [SIRAC Admissões](/sirac_admissoes.md)
