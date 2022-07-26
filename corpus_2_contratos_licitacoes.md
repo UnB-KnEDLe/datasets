@@ -46,13 +46,13 @@ Annotations from Batch 1 and Experimental Batch.
 
 |    Class                       | Quantity | 
 |:------------------------------:|:--------:|
-| AVISO_LICITACAO                |          |
-| AVISO_ANUL_REV_LICITACAO       |          |
-| AVISO_SUSPENSAO_LICITACAO      |          |
-| EXTRATO_ADITAMENTO_CONTRATUAL  |          |
-| EXTRATO_CONTRATO               |          |
-| EXTRATO_CONVENIO               |          |
-|Total                           |       TBD|
+| AVISO_LICITACAO                |      1796|
+| AVISO_ANUL_REV_LICITACAO       |       173|
+| AVISO_SUSPENSAO_LICITACAO      |       143|
+| EXTRATO_ADITAMENTO_CONTRATUAL  |      6695|
+| EXTRATO_CONTRATO               |      6224|
+| EXTRATO_CONVENIO               |        97|
+|Total                           |     15128|
 
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/1zxM1tDKoNPXgu9z7qdT_m3w5QDFUe1L4/view?usp=sharing)
