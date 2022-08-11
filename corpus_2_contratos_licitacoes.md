@@ -23,7 +23,7 @@ The acts considered and their respective labels are presented below:
 [More information](https://github.com/UnB-KnEDLe/tutorial_anotacao_contratos_licitacoes) about the annotation process and its labels.
 
 # Version 0
-**size:** 158592 rows
+**size:** 30376 rows
 
 Annotations from Batch 1 and Experimental Batch. 
 
@@ -46,16 +46,16 @@ Annotations from Batch 1 and Experimental Batch.
 
 |    Class                       | Quantity | 
 |:------------------------------:|:--------:|
-| AVISO_LICITACAO                |      1796|
-| AVISO_ANUL_REV_LICITACAO       |       173|
-| AVISO_SUSPENSAO_LICITACAO      |       143|
-| EXTRATO_ADITAMENTO_CONTRATUAL  |      6695|
-| EXTRATO_CONTRATO               |      6224|
-| EXTRATO_CONVENIO               |        97|
-|Total                           |     15128|
+| AVISO_LICITACAO                |       319|
+| AVISO_ANUL_REV_LICITACAO       |        31|
+| AVISO_SUSPENSAO_LICITACAO      |        26|
+| EXTRATO_ADITAMENTO_CONTRATUAL  |      1265|
+| EXTRATO_CONTRATO               |      1221|
+| EXTRATO_CONVENIO               |        18|
+|Total                           |      2880|
 
 ## Files
-- [CSV (**Restricted**) ](https://drive.google.com/file/d/1lGSqH8lxUfg8Yxv9tnGwfdMjV-ioZh5c/view?usp=sharing)
+- [CSV (**Restricted**) ](https://drive.google.com/file/d/1o4_ycHyyTZAPMXistI3-Ll-48a7MU-u9/view?usp=sharing)
 - [XML (**Restricted**) ](https://drive.google.com/drive/folders/1lalUjFuDX7GJ4gDej3JkJ7gqXXxSoGDL?usp=sharing)
 
 
