@@ -1,6 +1,3 @@
-[Download Final Version (**Restricted**) ](https://drive.google.com/file/d/1TDfUicwYDjJBFMabGFl0aIpqysAL4eiJ/view?usp=sharing)
-
-
 # Source
 
 Data extracted from the Diário Oficial do Distrito Federal (DODF) using [DODFMiner](https://dodfminer.readthedocs.io/) and manually annotated by volunteers associated with the KnEDLe project.
@@ -46,13 +43,13 @@ Annotations from Batch 1 and Experimental Batch.
 
 |    Class                       | Quantity | 
 |:------------------------------:|:--------:|
-| AVISO_LICITACAO                |       319|
+| AVISO_LICITACAO                |       317|
 | AVISO_ANUL_REV_LICITACAO       |        31|
 | AVISO_SUSPENSAO_LICITACAO      |        26|
-| EXTRATO_ADITAMENTO_CONTRATUAL  |      1265|
-| EXTRATO_CONTRATO               |      1221|
+| EXTRATO_ADITAMENTO_CONTRATUAL  |      1260|
+| EXTRATO_CONTRATO               |      1223|
 | EXTRATO_CONVENIO               |        18|
-|Total                           |      2880|
+|Total                           |      2875|
 
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/1o4_ycHyyTZAPMXistI3-Ll-48a7MU-u9/view?usp=sharing)
