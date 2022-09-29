@@ -86,9 +86,9 @@ Annotations from Batch 1 and Experimental Batch.
 | AVISO_ANUL_REV_LICITACAO       |        46|
 | AVISO_SUSPENSAO_LICITACAO      |        68|
 | EXTRATO_ADITAMENTO_CONTRATUAL  |      1537|
-| EXTRATO_CONTRATO               |      1537|
+| EXTRATO_CONTRATO               |      1542|
 | EXTRATO_CONVENIO               |        24|
-|Total                           |      3850|
+|Total                           |      3855|
 
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/1x-3C0ew_UoNddM3Sb40r7V5_cFKAaJaq/view?usp=sharing)
