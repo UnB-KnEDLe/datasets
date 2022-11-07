@@ -78,26 +78,26 @@ Annotations from Batch 1 and Experimental Batch.
 |texto          | text of the annotated entity |
 |id_ato         | identifier of the act to which the entity belongs |
 
-# Version 2 (Final version)
-**size:** 43733 rows
-
-- Added the remaining annotations from the Experimental Batch
-
 ## Number of Labeled Acts
 
 |    Class                       | Quantity | 
 |:------------------------------:|:--------:|
-| AVISO_LICITACAO                |       639|
-| AVISO_ANUL_REV_LICITACAO       |        52|
-| AVISO_SUSPENSAO_LICITACAO      |        82|
-| EXTRATO_ADITAMENTO_CONTRATUAL  |      1551|
-| EXTRATO_CONTRATO               |      1734|
-| EXTRATO_CONVENIO               |        32|
-|Total                           |      4090|
+| AVISO_LICITACAO                |       638|
+| AVISO_ANUL_REV_LICITACAO       |        46|
+| AVISO_SUSPENSAO_LICITACAO      |        68|
+| EXTRATO_ADITAMENTO_CONTRATUAL  |      1537|
+| EXTRATO_CONTRATO               |      1542|
+| EXTRATO_CONVENIO               |        24|
+|Total                           |      3855|
 
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/1x-3C0ew_UoNddM3Sb40r7V5_cFKAaJaq/view?usp=sharing)
 - [XML (**Restricted**) ](https://drive.google.com/drive/folders/1fMNGGUutW8hVMpTBJ9Y1HLtvyJ5_XxVQ?usp=sharing)
+
+# Version 2 (Final version)
+**size:** 43733 rows
+
+- Added the remaining annotations from the Experimental Batch
 
 ## Attribute Information 
 
@@ -119,13 +119,13 @@ Annotations from Batch 1 and Experimental Batch.
 
 |    Class                       | Quantity | 
 |:------------------------------:|:--------:|
-| AVISO_LICITACAO                |       638|
-| AVISO_ANUL_REV_LICITACAO       |        46|
-| AVISO_SUSPENSAO_LICITACAO      |        68|
-| EXTRATO_ADITAMENTO_CONTRATUAL  |      1537|
-| EXTRATO_CONTRATO               |      1542|
-| EXTRATO_CONVENIO               |        24|
-|Total                           |      3855|
+| AVISO_LICITACAO                |       639|
+| AVISO_ANUL_REV_LICITACAO       |        52|
+| AVISO_SUSPENSAO_LICITACAO      |        82|
+| EXTRATO_ADITAMENTO_CONTRATUAL  |      1551|
+| EXTRATO_CONTRATO               |      1734|
+| EXTRATO_CONVENIO               |        32|
+|Total                           |      4090|
 
 ## Files
 - [CSV (**Restricted**) ](https://drive.google.com/file/d/1KkT8XaI17auKOJSY6UTKZfNJXc0PlyNS/view?usp=share_link)
