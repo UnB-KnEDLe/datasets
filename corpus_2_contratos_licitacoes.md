@@ -78,6 +78,43 @@ Annotations from Batch 1 and Experimental Batch.
 |texto          | text of the annotated entity |
 |id_ato         | identifier of the act to which the entity belongs |
 
+# Version 2 (Final version)
+**size:** 43733 rows
+
+- Added the remaining annotations from the Experimental Batch
+
+## Number of Labeled Acts
+
+|    Class                       | Quantity | 
+|:------------------------------:|:--------:|
+| AVISO_LICITACAO                |       639|
+| AVISO_ANUL_REV_LICITACAO       |        52|
+| AVISO_SUSPENSAO_LICITACAO      |        82|
+| EXTRATO_ADITAMENTO_CONTRATUAL  |      1551|
+| EXTRATO_CONTRATO               |      1734|
+| EXTRATO_CONVENIO               |        32|
+|Total                           |      4090|
+
+## Files
+- [CSV (**Restricted**) ](https://drive.google.com/file/d/1x-3C0ew_UoNddM3Sb40r7V5_cFKAaJaq/view?usp=sharing)
+- [XML (**Restricted**) ](https://drive.google.com/drive/folders/1fMNGGUutW8hVMpTBJ9Y1HLtvyJ5_XxVQ?usp=sharing)
+
+## Attribute Information 
+
+|    Attribute  | Description | 
+|:-------------:|:-------------------:|
+|id_dodf        | identifier of the DODF from which the act was extracted |
+|tipo_rel       | type of the act to which the entity belongs |
+|id_rel         | relation-level annotation identifier |
+|anotador_rel   | anonymized identifier of the annotator who created the relation-level annotation |
+|tipo_ent       | entity type |
+|id_ent         | entity-level annotation identifier |
+|anotador_ent   | anonymized identifier of the annotator who created the entity-level annotation |
+|offset         | character offset from the beginning of the document to the first character of the annotation |
+|length         | length of the annotation in characters |
+|texto          | text of the annotated entity |
+|id_ato         | identifier of the act to which the entity belongs |
+
 ## Number of Labeled Acts
 
 |    Class                       | Quantity | 
@@ -91,7 +128,7 @@ Annotations from Batch 1 and Experimental Batch.
 |Total                           |      3855|
 
 ## Files
-- [CSV (**Restricted**) ](https://drive.google.com/file/d/1x-3C0ew_UoNddM3Sb40r7V5_cFKAaJaq/view?usp=sharing)
-- [XML (**Restricted**) ](https://drive.google.com/drive/folders/1fMNGGUutW8hVMpTBJ9Y1HLtvyJ5_XxVQ?usp=sharing)
+- [CSV (**Restricted**) ](TBD)
+- [XML (**Restricted**) ](TBD)
 
 # Relevant Papers
